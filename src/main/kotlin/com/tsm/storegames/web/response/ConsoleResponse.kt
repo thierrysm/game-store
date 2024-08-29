@@ -5,6 +5,6 @@ import java.math.BigDecimal
 data class ConsoleResponse (
     val id: Long,
     val name: String,
-    val year: Int,
+    val releaseDate: String,
     val price: BigDecimal
 )
